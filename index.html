@@ -1,65 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <style>
         div{
-            padding: 10px;
-            margin: 10px;
-            border: 1px solid black;
-        }
-
-        .static{
-            position: static;
-         background-color:  lightcoral;
-        }
-
-        .container{
-            position: relative;
-            height: 500px;
-            background-color: rgb(255, 127, 212);
-        }
-
-        .absolute{
-            position: absolute;
-            background-color: cyan;
-            right: 0px;
-            left: 0px;
-
-        }
-        .fixed{
-            background-color: aquamarine;
-            position: fixed;
-            bottom: 0px;
             
         }
-        .bottom{
-            height: 500px;
-        }
-
-        .sticky{
-            background-color: brown;
-            position: sticky;
-            top: 0px;
-            margin-bottom: 30px;
-            opacity: 0.1;
-
-        }
-
     </style>
-</head>
-<body>
-    <section class="container">
-        
-            <div class="static">Static</div>
-            <div class="absoulute">Absolute</div>
-            <div class="fixed">Fixed</div>
-            
-    </section>
-    <div>
-        bottom
+
+    h1>Grade system</h1>
+<section class="row container" style="background-color: aquamarine;">
+    <div class="col-md-6-lg-4" style="background-color: brown;">
+        column1
     </div>
-</body>
-</html>
+    <div class="col-md-6-lg-4" style="background-color: blueviolet;">
+        column2
+    </div>
+    <div class="col-md-6-lg-4" style="background-color: rgb(58, 42, 165);">
+        column3
+    </div>
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  
+  </head>
+  <body>
+    
